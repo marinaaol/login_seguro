@@ -217,9 +217,9 @@ Validação cliente-side com JavaScript\
 Validação server-side em Python\
 Mensagens de erro específicas
 
-Nível 3 - Bloqueio por Tentativas
-Contador de tentativas na base de dados
-Sistema de bloqueio temporal (15 minutos)
+Nível 3 - Bloqueio por Tentativas\
+Contador de tentativas na base de dados\
+Sistema de bloqueio temporal (15 minutos)\
 Feedback visual das tentativas restantes
 
 Nível 4 - Recuperação de Password\
