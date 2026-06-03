@@ -100,7 +100,7 @@ cd login-seguro-flask
 2) Crie um ambiente virtual (opcional, mas recomendado)
 
 # Windows
-python -m venv venv
+python -m venv venv\
 venv\Scripts\activate
 
 # Linux/Mac
@@ -129,7 +129,7 @@ pip install flask
 
 3) Copie os arquivos do projeto\
 Copie app.py para a pasta raiz\
-Copie os arquivos HTML para a pasta templates/
+Copie os arquivos HTML para a pasta templates
 
 4) Execute a aplicação
 
@@ -148,12 +148,11 @@ app.run(debug=True, port=8080)
 📖 Guia de Uso
 
 1. Primeiro Acesso\
-Acesse http://127.0.0.1:5000\
+Acesse http://127.0.0.1:5000 \
 Será redirecionado para a página de login\
 Clique em "Criar conta" para registar-se
 
 2. Registo de Utilizador
-
     Preencha os campos obrigatórios (Username, Password)\
     Opcionalmente, adicione Nome Completo e Email\
     A password deve ter no mínimo 6 caracteres\
@@ -177,7 +176,7 @@ Use o token para redefinir a password
 
 💻 Processo de Desenvolvimento
 
-Fase 1: Planeamento e Análise\
+Fase 1: Planeamento e Análise
 1) Levantamento de Requisitos\
 Identificação das necessidades de segurança\
 Definição dos fluxos de autenticação\
@@ -217,9 +216,9 @@ Validação cliente-side com JavaScript\
 Validação server-side em Python\
 Mensagens de erro específicas
 
-Nível 3 - Bloqueio por Tentativas\
-Contador de tentativas na base de dados\
-Sistema de bloqueio temporal (15 minutos)\
+Nível 3 - Bloqueio por Tentativas \
+Contador de tentativas na base de dados \
+Sistema de bloqueio temporal (15 minutos) \
 Feedback visual das tentativas restantes
 
 Nível 4 - Recuperação de Password\
