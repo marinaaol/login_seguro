@@ -93,7 +93,7 @@ Antes de executar o projeto, verifique se tem instalado:
 Método 1: Clonando o Repositório (Recomendado)
 
 1) Clone o repositório\
-git clone https://github.com/marinaaol/login-seguro-flask.git\
+git clone https://github.com/marinaaol/login-seguro-flask.git \
 cd login-seguro-flask
 
 
